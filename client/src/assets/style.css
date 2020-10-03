@@ -1,0 +1,28 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+/* purgecss start ignore */
+
+.fluentProgressBar-waiting {
+  background: linear-gradient(
+    to right,
+    rgba(0, 120, 212, 0) 0%,
+    rgb(214, 122, 1) 51%,
+    rgba(0, 120, 212, 0) 100%
+  );
+  animation: progressBarAnimation 1.5s linear infinite;
+}
+
+@keyframes progressBarAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+/* purgecss end ignore */
