@@ -9,7 +9,7 @@ This repository contains a playground for testing out ReasonRelay. It focuses on
 You're encourage to do the following to get the best possible experience of trying this repo out:
 
 1. Install the [ReasonRelay VSCode extension](https://marketplace.visualstudio.com/items?itemName=GabrielNordeborn.vscode-reason-relay)
-2. Open the `client` folder in VSCode, _not_ the root. This ensures the tooling works as expected.
+2. Open the `client` folder in VSCode, _not_ the root (where this README file is located). This ensures the tooling works as expected.
 
 ### Installing
 
